@@ -1,0 +1,242 @@
+[
+  {
+    "id":"19503185830464036462"
+   ,"Identification":{
+      "Name":"STUDENTS LOV"
+    }
+   ,"Source":{
+      "Location":"Local Database"
+     ,"Type":"Table \/ View"
+     ,"Table Owner":"Parsing Schema"
+     ,"Table Name":"STUDENTS"
+    }
+   ,"Column Mapping":{
+      "Return":"STUDENT_ID"
+     ,"Display":"FIRST_NAME"
+     ,"Default Sort":"Use Order By from Query"
+    }
+   ,"Columns":[
+      {
+        "id":"22487761983456092601"
+       ,"Identification":{
+          "Column Name":"STUDENT_ID"
+         ,"Show":false
+        }
+       ,"Heading":{
+          "Heading":"Student ID"
+        }
+       ,"Layout":{
+          "Sequence":30
+        }
+       ,"Source":{
+          "Data Type":"NUMBER"
+        }
+       ,"Advanced":{
+          "Searchable":false
+        }
+      }
+     ,{
+        "id":"22487762309522092601"
+       ,"Identification":{
+          "Column Name":"FIRST_NAME"
+         ,"Show":true
+        }
+       ,"Heading":{
+          "Heading":"First Name"
+        }
+       ,"Layout":{
+          "Sequence":10
+        }
+       ,"Source":{
+          "Data Type":"VARCHAR2"
+        }
+       ,"Advanced":{
+          "Searchable":true
+        }
+      }
+     ,{
+        "id":"22487762700391092601"
+       ,"Identification":{
+          "Column Name":"LAST_NAME"
+         ,"Show":true
+        }
+       ,"Heading":{
+          "Heading":"Last Name"
+        }
+       ,"Layout":{
+          "Sequence":20
+        }
+       ,"Source":{
+          "Data Type":"VARCHAR2"
+        }
+       ,"Advanced":{
+          "Searchable":true
+        }
+      }
+    ]
+  }
+ ,{
+    "id":"19516078618056338472"
+   ,"Identification":{
+      "Name":"PARKING_LOV"
+    }
+   ,"Source":{
+      "Location":"Local Database"
+     ,"Type":"SQL Query"
+     ,"SQL Query":"SELECT LOT_NAME,SECTION_NAME,PARKING_ID FROM PARKING"
+    }
+   ,"Column Mapping":{
+      "Return":"PARKING_ID"
+     ,"Display":"LOT_NAME"
+     ,"Default Sort":"LOT_NAME"
+     ,"Sort Direction":"Ascending (Nulls Last)"
+    }
+   ,"Columns":[
+      {
+        "id":"22507074481227463959"
+       ,"Identification":{
+          "Column Name":"PARKING_ID"
+         ,"Show":false
+        }
+       ,"Layout":{
+          "Sequence":10
+        }
+       ,"Source":{
+          "Data Type":"NUMBER"
+        }
+       ,"Advanced":{
+          "Searchable":false
+        }
+      }
+     ,{
+        "id":"22507074823599463959"
+       ,"Identification":{
+          "Column Name":"LOT_NAME"
+         ,"Show":true
+        }
+       ,"Heading":{
+          "Heading":"Lot Name"
+        }
+       ,"Layout":{
+          "Sequence":20
+        }
+       ,"Source":{
+          "Data Type":"VARCHAR2"
+        }
+       ,"Advanced":{
+          "Searchable":true
+        }
+      }
+     ,{
+        "id":"22507075204805463959"
+       ,"Identification":{
+          "Column Name":"SECTION_NAME"
+         ,"Show":true
+        }
+       ,"Heading":{
+          "Heading":"Section Name"
+        }
+       ,"Layout":{
+          "Sequence":30
+        }
+       ,"Source":{
+          "Data Type":"VARCHAR2"
+        }
+       ,"Advanced":{
+          "Searchable":true
+        }
+      }
+    ]
+  }
+ ,{
+    "id":"22454652638817591682"
+   ,"Identification":{
+      "Name":"ACTIVITIES_LOV"
+    }
+   ,"Source":{
+      "Location":"Static Values"
+    }
+   ,"Entries":[
+      {
+        "id":"22454652925750591683"
+       ,"Entry":{
+          "Sequence":1
+         ,"Display":"TRACK"
+         ,"Return":"TRACK"
+        }
+      }
+     ,{
+        "id":"22454653319614591683"
+       ,"Entry":{
+          "Sequence":2
+         ,"Display":"FOOTBALL"
+         ,"Return":"FOOTBALL"
+        }
+      }
+     ,{
+        "id":"22454653748583591684"
+       ,"Entry":{
+          "Sequence":3
+         ,"Display":"SOCCER"
+         ,"Return":"SOCCER"
+        }
+      }
+     ,{
+        "id":"22454654155413591684"
+       ,"Entry":{
+          "Sequence":4
+         ,"Display":"BASEBALL"
+         ,"Return":"BASEBALL"
+        }
+      }
+     ,{
+        "id":"22454654557776591684"
+       ,"Entry":{
+          "Sequence":5
+         ,"Display":"BASKETBALL"
+         ,"Return":"BASKETBALL"
+        }
+      }
+     ,{
+        "id":"22455244722674289588"
+       ,"Entry":{
+          "Sequence":6
+         ,"Display":"BAND"
+         ,"Return":"BAND"
+        }
+      }
+     ,{
+        "id":"22455245073835289588"
+       ,"Entry":{
+          "Sequence":7
+         ,"Display":"ORCHESTRA"
+         ,"Return":"ORCHESTRA"
+        }
+      }
+     ,{
+        "id":"22455245426251289589"
+       ,"Entry":{
+          "Sequence":8
+         ,"Display":"DEBATE"
+         ,"Return":"DEBATE"
+        }
+      }
+     ,{
+        "id":"22455245817253289589"
+       ,"Entry":{
+          "Sequence":9
+         ,"Display":"TENNIS"
+         ,"Return":"TENNIS"
+        }
+      }
+     ,{
+        "id":"22455246212313289589"
+       ,"Entry":{
+          "Sequence":10
+         ,"Display":"GOLF"
+         ,"Return":"GOLF"
+        }
+      }
+    ]
+  }
+]

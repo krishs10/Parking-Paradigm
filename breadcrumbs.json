@@ -1,0 +1,83 @@
+[
+  {
+    "id":"10308208754943958309"
+   ,"Identification":{
+      "Name":"Breadcrumb"
+    }
+   ,"Entries":[
+      {
+        "id":"10308208951890958310"
+       ,"Identification":{
+          "Name":"Home"
+         ,"Page Number":"1"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:1:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"1"
+          }
+        }
+      }
+     ,{
+        "id":"11235030437832077035"
+       ,"Identification":{
+          "Name":"Student Details"
+         ,"Page Number":"3"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Appearance":{
+          "Parent Entry":"Home (10308208951890958310)"
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:3:\u0026SESSION.::\u0026DEBUG.:::"
+           ,"Page":"3"
+          }
+        }
+      }
+     ,{
+        "id":"15791235634753575598"
+       ,"Identification":{
+          "Name":"Parking Details"
+         ,"Page Number":"8"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Appearance":{
+          "Parent Entry":"Home (10308208951890958310)"
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:8:\u0026SESSION.::\u0026DEBUG.:::"
+           ,"Page":"8"
+          }
+        }
+      }
+     ,{
+        "id":"22446223172392431077"
+       ,"Identification":{
+          "Name":"Parking Assignment"
+         ,"Page Number":"2"
+        }
+       ,"Execution":{
+          "Sequence":10
+        }
+       ,"Appearance":{
+          "Parent Entry":"Home (10308208951890958310)"
+        }
+       ,"Link":{
+          "Target":{
+            "url":"f?p=\u0026APP_ID.:2:\u0026APP_SESSION.::\u0026DEBUG.:::"
+           ,"Page":"2"
+          }
+        }
+      }
+    ]
+  }
+]
